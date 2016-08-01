@@ -7,3 +7,7 @@ Usage:
 $ ejd <word>
 ~~~
 
+# TODO
+
++ 出力を適切に半角にする
+

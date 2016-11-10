@@ -71,7 +71,7 @@ errHandle :: HttpException -> IO ()
 errHandle e = putErr $ show e
 
 putErr :: String -> IO ()
-putErr str = hPutStrLn stderr str
+putErr = hPutStrLn stderr
 
 searchUrl :: String
 searchUrl = "http://public.dejizo.jp/NetDicV09.asmx/SearchDicItemLite"
